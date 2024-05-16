@@ -3,14 +3,16 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-purple-950 text-white py-12 text-center">
+
+    <footer className="bg-purple-950 text-white text-center">
+    <div className=" border-t border-purple-500 pt-4 text-sm text-center"></div>
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap -mx-4">
-          <div className="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
+          <div className="w-full lg:w-1/3 px-4 mb-4 lg:mb-0">
             <h2 className="text-2xl font-semibold mb-4">About Us</h2>
-            <p className="text-sm">FoodForThought is a platform designed to support workforces in the software engineering industry. We host colleague communities for employees to share eachothers knowledge, experience, and offer  support. Our aim is to help save your time with social capital, and fill a gap in the market!</p>
+            <p className="text-sm">Food4Thought is a platform designed to support workforces in the software engineering industry. We host colleague communities for employees to share eachothers knowledge, experience, and offer  support. Our aim is to help save your time with social capital, and fill a gap in the market!</p>
           </div>
-          <div className="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
+          <div className="w-full lg:w-1/3 px-4 mb-4 lg:mb-0">
             <h2 className="flex justify-center text-2xl font-semibold mb-4">Contact Us</h2>
             <p className="text-sm">City of London, United Kingdom</p>
             <p className="text-sm">alaarammu@gmail.com</p>
@@ -35,7 +37,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="mt-8 border-t border-purple-500 pt-6 text-sm text-center">
+      <div className="mt-4 border-t border-purple-500 pt-6 text-sm text-center pb-4">
         <p>&copy; {new Date().getFullYear()} FoodForThought. All rights reserved.</p>
       </div>
     </footer>

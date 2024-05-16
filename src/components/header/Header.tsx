@@ -11,7 +11,7 @@ export default function Header() {
   };
 
   return (
-    <nav className="text-white bg-purple-950 flex items-center">
+    <nav className="text-white bg-purple-950 flex items-center border-b border-purple-500 text-sm text-center">
       <CiBowlNoodles className="pl-2 text-7xl" />
       <Link legacyBehavior href="/">
         <a className="text-white font-semibold text-3xl font-calibri transition-duration-300 cursor-pointer hover:text-purple-500">
@@ -27,6 +27,7 @@ export default function Header() {
             onKeyPress={handleKeyPress}
           />
           <IoSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-purple-500 text-2xl" />
+
         </div>
       </div>
     </nav>
