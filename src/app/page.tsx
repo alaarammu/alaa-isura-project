@@ -5,13 +5,9 @@ export default function Home() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "60vh",
+        height: "100vh",
       }}
     >
-      <img
-        src=""
-        style={{ height: "80vh", padding: "10vh", width: "100vh" }}
-      />
       
     </div>
   );
