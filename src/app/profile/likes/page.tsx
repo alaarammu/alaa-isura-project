@@ -5,13 +5,20 @@ import Link from "next/link";
 export default function ProfileLikes() {
   return (
     <div className="bg-purple-950 min-h-screen flex flex-col items-start pt-9 pl-9 pr-9 pb-9">
-      <div className="flex space-x-9 items-start">
-        <div className="relative w-36 h-36 flex-shrink-0">
-          <FaUserCircle className="absolute inset-0 text-purple-400 bg-white rounded-full w-full h-full" />
-        </div>
+    <div className="flex space-x-9 items-start">
+      <div className="relative w-36 h-36 flex-shrink-0">
+        <FaUserCircle className="absolute inset-0 text-purple-400 bg-white rounded-full w-full h-full" />
+      </div>
 
-      <div className="bg-white rounded-xl p-8">
-        <h1 className="text-purple-950 font-bold pl-4 pr-4 pb-1">Username</h1>
+      <div className="bg-white rounded-xl shadow-lg p-8">
+        <div className="flex justify-between items-center">
+          <h1 className="text-purple-950 font-bold pl-4">Username</h1>
+          <Link href="/" legacyBehavior>
+            <a className="text-white font-bold rounded-full pt-2 pb-2 bg-purple-400 hover:bg-purple-500 focus:bg-purple-500 pr-3 pl-3 flex-shrink-0">
+              Edit Profile
+            </a>
+          </Link>
+        </div>
         <p className="text-purple-500 pl-4 pr-4 pb-1">AlaaRammu</p>
         <p className="text-purple-500 pl-4 pr-4">
           https://Food4Thought/AlaaRammu/
