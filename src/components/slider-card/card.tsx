@@ -9,7 +9,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ image, title, description }) => {
   return (
-    <div className="bg-white/10 duration-200 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 cursor-pointer p-8 rounded-xl mix-blend-luminosity flex flex-col items-center justify-center">
+    <div className="bg-white/10 duration-200 hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 cursor-pointer p-8 rounded-xl mix-blend-luminosity flex flex-col items-center justify-center">
       <Image
         src={image}
         alt={title}
