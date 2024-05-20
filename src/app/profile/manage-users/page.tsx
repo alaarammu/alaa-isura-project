@@ -7,7 +7,7 @@ export default function ManageUsers() {
       <div className="flex space-x-9 items-start">
         <FaUserCircle className="text-9xl text-purple-400 bg-white avatar aspect-square rounded-full" />
 
-        <div className="bg-white rounded-full shadow-lg p-6">
+        <div className="bg-white rounded-xl shadow-lg p-6">
           <h1 className="text-purple-950 font-bold pl-4 pr-4 pb-1">Username</h1>
           <p className="text-purple-500 pl-4 pr-4 pb-1">AlaaRammu</p>
           <p className="text-purple-500 pl-4 pr-4">
@@ -16,7 +16,7 @@ export default function ManageUsers() {
         </div>
 
         <div className="bg-purple-950 rounded-full p-6 mt-9 flex space-x-6">
-          <Link href="./profile/likes" legacyBehavior>
+          <Link href="./likes" legacyBehavior>
             <a className="text-white font-bold rounded-full pt-3 pb-3 bg-purple-950 hover:bg-purple-500 focus:bg-purple-500 pr-3 pl-3">
               Likes
             </a>

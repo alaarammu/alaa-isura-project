@@ -8,7 +8,7 @@ export default function ProfileLikes() {
     <div className="flex space-x-9 items-start">
       <FaUserCircle className="text-9xl text-purple-400 bg-white avatar aspect-square rounded-full" />
 
-      <div className="bg-white rounded-full shadow-lg p-6">
+      <div className="bg-white rounded-xl shadow-lg p-6">
         <h1 className="text-purple-950 font-bold pl-4 pr-4 pb-1">Username</h1>
         <p className="text-purple-500 pl-4 pr-4 pb-1">AlaaRammu</p>
         <p className="text-purple-500 pl-4 pr-4">
@@ -48,7 +48,7 @@ export default function ProfileLikes() {
 
 
     </div>
-    <div className="bg-white rounded-full shadow-lg p-6 mt-9" >
+    <div className="bg-white rounded-xl shadow-lg p-6 mt-9" >
       <h1 className="text-purple-950 font-bold">
         Your Likes & Engagement
       </h1>
